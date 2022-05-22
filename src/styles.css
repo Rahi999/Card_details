@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.h1{
+  color: teal;
+}
+.parent{
+   margin-left: 35%;
+  margin-top: 50px;
+  height: 400px;
+  width: 400px;
+  background-color: #ffaa00;
+  border-radius: 10px;
+  display: flex;
+}
+.child1, .child2{
+        height: 100%;
+        width: 50%;
+        display: block;
+}
+.child2>img{
+  height: 80px;
+  margin-top: 30px;
+}
+.button{
+  background-color: black;
+  color: white;
+  
+}
+input{
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid pink;
+}
